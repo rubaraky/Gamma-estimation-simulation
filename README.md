@@ -8,8 +8,8 @@ This project compares the performance of two statistical estimation methods, **M
 The study involves theoretical derivations, application on a simulated dataset, and a comprehensive **Monte Carlo Simulation study** to evaluate finite-sample properties such as Bias, Variance, and Mean Squared Error (MSE).
 
 ## 📂 Repository Structure
-* **`term_project.Rmd`**: The main RMarkdown source file containing all code, derivation (LaTeX), and analysis.
-* **`term_project.pdf`**: The final compiled report presenting the results and visualizations.
+* **`report.rmd`**: The main RMarkdown source file containing all code, derivation (LaTeX), and analysis.
+* **`report.pdf`**: The final compiled report presenting the results and visualizations.
 * **`project_codes.R`**: A standalone R script containing the reproducible code for data generation and simulation (extracted from the report).
 * **`README.md`**: Project documentation.
 
