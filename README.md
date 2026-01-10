@@ -47,5 +47,5 @@ To reproduce the results, you need **R** and **RStudio**.
 * **LaTeX** (Mathematical Typesetting)
 
 ## 👤 Author
-[Rubar Akyıldız]
+[Rubar Akyıldız&Melih Akay]
 [akyildiz.rubar@metu.edu.tr]
