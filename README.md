@@ -7,13 +7,13 @@ This project compares the performance of two statistical estimation methods, **M
 
 The study involves theoretical derivations, application on a simulated dataset, and a comprehensive **Monte Carlo Simulation study** to evaluate finite-sample properties such as Bias, Variance, and Mean Squared Error (MSE).
 
-## 📂 Repository Structure
+##  Repository Structure
 * **`report.rmd`**: The main RMarkdown source file containing all code, derivation (LaTeX), and analysis.
 * **`report.pdf`**: The final compiled report presenting the results and visualizations.
 * **`project_codes.R`**: A standalone R script containing the reproducible code for data generation and simulation (extracted from the report).
 * **`README.md`**: Project documentation.
 
-## ⚙️ Methodology
+##  Methodology
 The project follows these main steps:
 1.  **Theoretical Derivation:** Deriving the equations for MoM and MLE for Gamma parameters.
 2.  **Point Estimation:** Applying the methods to a single generated dataset ($n=100, k=3, \theta=2$) to visualize fit using Histograms.
@@ -24,13 +24,13 @@ The project follows these main steps:
         * Scenario 1 (High Skewness): $k=1, \theta=2$
         * Scenario 2 (Moderate Skewness): $k=5, \theta=1$
 
-## 📊 Key Findings
+##  Key Findings
 Based on the simulation results:
 * **Consistency:** Both estimators are consistent; Bias and MSE decrease as sample size ($n$) increases.
 * **Efficiency:** **MLE outperforms MoM** in terms of MSE in almost all scenarios.
 * **Skewness Effect:** The advantage of MLE is most pronounced in highly skewed distributions (Scenario 1) and smaller sample sizes.
 
-## 🚀 How to Run
+##  How to Run
 To reproduce the results, you need **R** and **RStudio**.
 
 1.  Clone this repository.
@@ -41,7 +41,7 @@ To reproduce the results, you need **R** and **RStudio**.
     ```
 4.  Click the **Knit** button to generate the PDF report.
 
-## 🛠 Technologies Used
+##  Technologies Used
 * **R Language** (Statistical Computing)
 * **RMarkdown** (Reproducible Reporting)
 * **LaTeX** (Mathematical Typesetting)
